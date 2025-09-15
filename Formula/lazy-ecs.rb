@@ -3,79 +3,12 @@ class LazyEcs < Formula
 
   desc "Interactive CLI tool for navigating AWS ECS clusters"
   homepage "https://github.com/vertti/lazy-ecs"
-  url "https://files.pythonhosted.org/packages/17/64/02a67bfd077375f76a9bc6f0cfd4d25b320120363418dd40610d15841255/lazy_ecs-0.1.9.tar.gz"
-  sha256 "c9588748ff53f2fc15623c6e9784e57aa1f32a80c7f145ac1596c6f695909033"
+  url "https://files.pythonhosted.org/packages/2a/31/776e81d150d429c4d4718f4e0b7c4750f7ecb75fdf81a966a18241855295/lazy_ecs-0.1.10.tar.gz"
+  sha256 "70934f4b1d35daa0284da641f7a8920a1a616e35dc6c2125be6f60e6edffbeaf"
   license "MIT"
 
   depends_on "python@3.11"
 
-Collecting lazy-ecs
-  Downloading lazy_ecs-0.1.9-py3-none-any.whl.metadata (4.2 kB)
-Collecting homebrew-pypi-poet
-  Downloading homebrew_pypi_poet-0.10.0-py2.py3-none-any.whl.metadata (639 bytes)
-Collecting boto3==1.40.30 (from lazy-ecs)
-  Downloading boto3-1.40.30-py3-none-any.whl.metadata (6.7 kB)
-Collecting questionary==2.1.1 (from lazy-ecs)
-  Downloading questionary-2.1.1-py3-none-any.whl.metadata (5.4 kB)
-Collecting rich==14.1.0 (from lazy-ecs)
-  Downloading rich-14.1.0-py3-none-any.whl.metadata (18 kB)
-Collecting botocore<1.41.0,>=1.40.30 (from boto3==1.40.30->lazy-ecs)
-  Downloading botocore-1.40.30-py3-none-any.whl.metadata (5.7 kB)
-Collecting jmespath<2.0.0,>=0.7.1 (from boto3==1.40.30->lazy-ecs)
-  Downloading jmespath-1.0.1-py3-none-any.whl.metadata (7.6 kB)
-Collecting s3transfer<0.15.0,>=0.14.0 (from boto3==1.40.30->lazy-ecs)
-  Downloading s3transfer-0.14.0-py3-none-any.whl.metadata (1.7 kB)
-Collecting prompt_toolkit<4.0,>=2.0 (from questionary==2.1.1->lazy-ecs)
-  Downloading prompt_toolkit-3.0.52-py3-none-any.whl.metadata (6.4 kB)
-Collecting markdown-it-py>=2.2.0 (from rich==14.1.0->lazy-ecs)
-  Downloading markdown_it_py-4.0.0-py3-none-any.whl.metadata (7.3 kB)
-Collecting pygments<3.0.0,>=2.13.0 (from rich==14.1.0->lazy-ecs)
-  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
-Collecting jinja2 (from homebrew-pypi-poet)
-  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
-Requirement already satisfied: setuptools in ./venv/lib/python3.11/site-packages (from homebrew-pypi-poet) (65.5.0)
-Collecting MarkupSafe>=2.0 (from jinja2->homebrew-pypi-poet)
-  Downloading MarkupSafe-3.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.0 kB)
-Collecting python-dateutil<3.0.0,>=2.1 (from botocore<1.41.0,>=1.40.30->boto3==1.40.30->lazy-ecs)
-  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
-Collecting urllib3!=2.2.0,<3,>=1.25.4 (from botocore<1.41.0,>=1.40.30->boto3==1.40.30->lazy-ecs)
-  Downloading urllib3-2.5.0-py3-none-any.whl.metadata (6.5 kB)
-Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich==14.1.0->lazy-ecs)
-  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
-Collecting wcwidth (from prompt_toolkit<4.0,>=2.0->questionary==2.1.1->lazy-ecs)
-  Downloading wcwidth-0.2.13-py2.py3-none-any.whl.metadata (14 kB)
-Collecting six>=1.5 (from python-dateutil<3.0.0,>=2.1->botocore<1.41.0,>=1.40.30->boto3==1.40.30->lazy-ecs)
-  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
-Downloading lazy_ecs-0.1.9-py3-none-any.whl (13 kB)
-Downloading boto3-1.40.30-py3-none-any.whl (139 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 139.3/139.3 kB 7.2 MB/s eta 0:00:00
-Downloading questionary-2.1.1-py3-none-any.whl (36 kB)
-Downloading rich-14.1.0-py3-none-any.whl (243 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.4/243.4 kB 21.8 MB/s eta 0:00:00
-Downloading homebrew_pypi_poet-0.10.0-py2.py3-none-any.whl (7.8 kB)
-Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.9/134.9 kB 37.7 MB/s eta 0:00:00
-Downloading botocore-1.40.30-py3-none-any.whl (14.0 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.0/14.0 MB 159.3 MB/s eta 0:00:00
-Downloading jmespath-1.0.1-py3-none-any.whl (20 kB)
-Downloading markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.3/87.3 kB 19.8 MB/s eta 0:00:00
-Downloading MarkupSafe-3.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (23 kB)
-Downloading prompt_toolkit-3.0.52-py3-none-any.whl (391 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 391.4/391.4 kB 87.8 MB/s eta 0:00:00
-Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 135.3 MB/s eta 0:00:00
-Downloading s3transfer-0.14.0-py3-none-any.whl (85 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 85.7/85.7 kB 27.1 MB/s eta 0:00:00
-Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
-Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 kB 58.3 MB/s eta 0:00:00
-Downloading urllib3-2.5.0-py3-none-any.whl (129 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 129.8/129.8 kB 36.2 MB/s eta 0:00:00
-Downloading wcwidth-0.2.13-py2.py3-none-any.whl (34 kB)
-Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
-Installing collected packages: wcwidth, urllib3, six, pygments, prompt_toolkit, mdurl, MarkupSafe, jmespath, questionary, python-dateutil, markdown-it-py, jinja2, rich, homebrew-pypi-poet, botocore, s3transfer, boto3, lazy-ecs
-Successfully installed MarkupSafe-3.0.2 boto3-1.40.30 botocore-1.40.30 homebrew-pypi-poet-0.10.0 jinja2-3.1.6 jmespath-1.0.1 lazy-ecs-0.1.9 markdown-it-py-4.0.0 mdurl-0.1.2 prompt_toolkit-3.0.52 pygments-2.19.2 python-dateutil-2.9.0.post0 questionary-2.1.1 rich-14.1.0 s3transfer-0.14.0 six-1.17.0 urllib3-2.5.0 wcwidth-0.2.13
   resource "boto3" do
     url "https://files.pythonhosted.org/packages/77/a7/3fde131d2431d1801e3f16f1b428cf9b8c6677996716c5286a72eb43ecb7/boto3-1.40.30.tar.gz"
     sha256 "e95db539c938710917f4cb4fc5915f71b27f2c836d949a1a95df7895d2e9ec8b"
@@ -92,8 +25,8 @@ Successfully installed MarkupSafe-3.0.2 boto3-1.40.30 botocore-1.40.30 homebrew-
   end
 
   resource "lazy-ecs" do
-    url "https://files.pythonhosted.org/packages/17/64/02a67bfd077375f76a9bc6f0cfd4d25b320120363418dd40610d15841255/lazy_ecs-0.1.9.tar.gz"
-    sha256 "c9588748ff53f2fc15623c6e9784e57aa1f32a80c7f145ac1596c6f695909033"
+    url "https://files.pythonhosted.org/packages/2a/31/776e81d150d429c4d4718f4e0b7c4750f7ecb75fdf81a966a18241855295/lazy_ecs-0.1.10.tar.gz"
+    sha256 "70934f4b1d35daa0284da641f7a8920a1a616e35dc6c2125be6f60e6edffbeaf"
   end
 
   resource "markdown-it-py" do
