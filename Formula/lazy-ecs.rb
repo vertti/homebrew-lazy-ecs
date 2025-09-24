@@ -3,20 +3,20 @@ class LazyEcs < Formula
 
   desc "Interactive CLI tool for navigating AWS ECS clusters"
   homepage "https://github.com/vertti/lazy-ecs"
-  url "https://files.pythonhosted.org/packages/49/0b/bfd60699ca7550a60653a30a9286a593cf89bfcdd0195a728b2f281044d9/lazy_ecs-0.1.17.tar.gz"
-  sha256 "92d07e13e1238378aff2cd0f718411d4d3e182d6485e2c6fb832e9f17d46ec42"
+  url "https://files.pythonhosted.org/packages/0c/85/91e5aac633c7cdad8579f298dcfc81ff183cf26e0f922c0c5d4fa04346e5/lazy_ecs-0.1.18.tar.gz"
+  sha256 "f5251263bb576bd75fdd49055f3527d59bbae1843ec5e55fdd7a03344797bfa2"
   license "MIT"
 
   depends_on "python@3.11"
 
   resource "boto3" do
-    url "https://files.pythonhosted.org/packages/77/a7/3fde131d2431d1801e3f16f1b428cf9b8c6677996716c5286a72eb43ecb7/boto3-1.40.30.tar.gz"
-    sha256 "e95db539c938710917f4cb4fc5915f71b27f2c836d949a1a95df7895d2e9ec8b"
+    url "https://files.pythonhosted.org/packages/8d/21/7bc857b155e8264c92b6fa8e0860a67dc01a19cbe6ba4342500299f2ae5b/boto3-1.40.36.tar.gz"
+    sha256 "bfc1f3d5c4f5d12b8458406b8972f8794ac57e2da1ee441469e143bc0440a5c3"
   end
 
   resource "botocore" do
-    url "https://files.pythonhosted.org/packages/da/6f/37f40da07f3cdde367f620874f76b828714409caf8466def65aede6bdf59/botocore-1.40.35.tar.gz"
-    sha256 "67e062752ff579c8cc25f30f9c3a84c72d692516a41a9ee1cf17735767ca78be"
+    url "https://files.pythonhosted.org/packages/fa/16/d5817f8abed763ca084471ed6055be558f76e35901d684b78c9ff9270694/botocore-1.40.37.tar.gz"
+    sha256 "9d2cfc41963a3a8be8ece395292e29afad2e25aa602d02bc0c0c3a598405a318"
   end
 
   resource "jmespath" do
@@ -25,8 +25,8 @@ class LazyEcs < Formula
   end
 
   resource "lazy-ecs" do
-    url "https://files.pythonhosted.org/packages/49/0b/bfd60699ca7550a60653a30a9286a593cf89bfcdd0195a728b2f281044d9/lazy_ecs-0.1.17.tar.gz"
-    sha256 "92d07e13e1238378aff2cd0f718411d4d3e182d6485e2c6fb832e9f17d46ec42"
+    url "https://files.pythonhosted.org/packages/0c/85/91e5aac633c7cdad8579f298dcfc81ff183cf26e0f922c0c5d4fa04346e5/lazy_ecs-0.1.18.tar.gz"
+    sha256 "f5251263bb576bd75fdd49055f3527d59bbae1843ec5e55fdd7a03344797bfa2"
   end
 
   resource "markdown-it-py" do
@@ -80,8 +80,8 @@ class LazyEcs < Formula
   end
 
   resource "wcwidth" do
-    url "https://files.pythonhosted.org/packages/6c/63/53559446a878410fc5a5974feb13d31d78d752eb18aeba59c7fef1af7598/wcwidth-0.2.13.tar.gz"
-    sha256 "72ea0c06399eb286d978fdedb6923a9eb47e1c486ce63e9b4e64fc18303972b5"
+    url "https://files.pythonhosted.org/packages/24/30/6b0809f4510673dc723187aeaf24c7f5459922d01e2f794277a3dfb90345/wcwidth-0.2.14.tar.gz"
+    sha256 "4d478375d31bc5395a3c55c40ccdf3354688364cd61c4f6adacaa9215d0b3605"
   end
 
   def install
