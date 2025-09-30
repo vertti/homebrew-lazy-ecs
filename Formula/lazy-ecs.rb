@@ -3,20 +3,20 @@ class LazyEcs < Formula
 
   desc "Interactive CLI tool for navigating AWS ECS clusters"
   homepage "https://github.com/vertti/lazy-ecs"
-  url "https://files.pythonhosted.org/packages/0c/85/91e5aac633c7cdad8579f298dcfc81ff183cf26e0f922c0c5d4fa04346e5/lazy_ecs-0.1.18.tar.gz"
-  sha256 "f5251263bb576bd75fdd49055f3527d59bbae1843ec5e55fdd7a03344797bfa2"
+  url "https://files.pythonhosted.org/packages/02/ab/c82717b253326437680285a5bc99745970a7a69b4af786ac4b4f6e9b1ac4/lazy_ecs-0.1.19.tar.gz"
+  sha256 "afce9c8cfd9a50d066b6c7d434d5aff32452f5585fe26889675af2056362309b"
   license "MIT"
 
   depends_on "python@3.11"
 
   resource "boto3" do
-    url "https://files.pythonhosted.org/packages/8d/21/7bc857b155e8264c92b6fa8e0860a67dc01a19cbe6ba4342500299f2ae5b/boto3-1.40.36.tar.gz"
-    sha256 "bfc1f3d5c4f5d12b8458406b8972f8794ac57e2da1ee441469e143bc0440a5c3"
+    url "https://files.pythonhosted.org/packages/52/f7/d652732fd8fc28f427f3e698e488b7422ede535fe4d813c7988642c7734b/boto3-1.40.41.tar.gz"
+    sha256 "2ea2463fc42812f3cab66b53114579b1f4b9a378ee48921d4385511a94307b24"
   end
 
   resource "botocore" do
-    url "https://files.pythonhosted.org/packages/fa/16/d5817f8abed763ca084471ed6055be558f76e35901d684b78c9ff9270694/botocore-1.40.37.tar.gz"
-    sha256 "9d2cfc41963a3a8be8ece395292e29afad2e25aa602d02bc0c0c3a598405a318"
+    url "https://files.pythonhosted.org/packages/c8/55/fa23104e4352f28a457c452a3621b00fe2a7a1e096d04e2f4a9890250448/botocore-1.40.41.tar.gz"
+    sha256 "320873c6a34bfd64fb9bbc55e8ac38e7904a574cfc634d1f0f66b1490c62b89d"
   end
 
   resource "jmespath" do
@@ -25,8 +25,8 @@ class LazyEcs < Formula
   end
 
   resource "lazy-ecs" do
-    url "https://files.pythonhosted.org/packages/0c/85/91e5aac633c7cdad8579f298dcfc81ff183cf26e0f922c0c5d4fa04346e5/lazy_ecs-0.1.18.tar.gz"
-    sha256 "f5251263bb576bd75fdd49055f3527d59bbae1843ec5e55fdd7a03344797bfa2"
+    url "https://files.pythonhosted.org/packages/02/ab/c82717b253326437680285a5bc99745970a7a69b4af786ac4b4f6e9b1ac4/lazy_ecs-0.1.19.tar.gz"
+    sha256 "afce9c8cfd9a50d066b6c7d434d5aff32452f5585fe26889675af2056362309b"
   end
 
   resource "markdown-it-py" do
