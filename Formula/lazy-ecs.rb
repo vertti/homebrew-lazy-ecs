@@ -3,8 +3,8 @@ class LazyEcs < Formula
 
   desc "Interactive CLI tool for navigating AWS ECS clusters"
   homepage "https://github.com/vertti/lazy-ecs"
-  url "https://files.pythonhosted.org/packages/e8/2a/8d30f916f6bb819f09527ea3549ce3da12efaa58ea88ecf89e3fb8fe1afa/lazy_ecs-0.2.0.tar.gz"
-  sha256 "92caa6e1240f5fbcaf1e9cddf3e2485c0d885c6240fac7baf6a2da420002a26d"
+  url "https://files.pythonhosted.org/packages/b8/42/62a952e9a6d104ad5738cec251bbf20781537b566703b97cf012ac1d5652/lazy_ecs-0.3.0.tar.gz"
+  sha256 "03f9d91eb30c81775ae4718c541d7473b280771551a42c50814f4dbd4274d251"
   license "MIT"
 
   depends_on "python@3.11"
@@ -15,8 +15,8 @@ class LazyEcs < Formula
   end
 
   resource "botocore" do
-    url "https://files.pythonhosted.org/packages/c8/55/fa23104e4352f28a457c452a3621b00fe2a7a1e096d04e2f4a9890250448/botocore-1.40.41.tar.gz"
-    sha256 "320873c6a34bfd64fb9bbc55e8ac38e7904a574cfc634d1f0f66b1490c62b89d"
+    url "https://files.pythonhosted.org/packages/d0/64/746b90bebf904e8d94fc740d8e0dabad1bf644c675fdb2e85ffd852665de/botocore-1.40.42.tar.gz"
+    sha256 "41bea751685fb2a51b4fc6be329a0cd0a285dbeb0686a21099e87ef146664bc0"
   end
 
   resource "jmespath" do
