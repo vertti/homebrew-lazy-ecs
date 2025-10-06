@@ -3,8 +3,8 @@ class LazyEcs < Formula
 
   desc "Interactive CLI tool for navigating AWS ECS clusters"
   homepage "https://github.com/vertti/lazy-ecs"
-  url "https://files.pythonhosted.org/packages/71/41/cb32e57edfb6dd9b696231e10af397ba55d23d15ca567060460a565e2c9a/lazy_ecs-0.7.0.tar.gz"
-  sha256 "e94a12c3f98a04ecc3b58a46c4ae8dd6bdf49e69302a265777c087972c06b9df"
+  url "https://files.pythonhosted.org/packages/88/a3/ce418634739ef716d2cbf33de7d5a8f07057059c22051b10d9dd85a25d0c/lazy_ecs-0.7.2.tar.gz"
+  sha256 "76dbb5c888b01a8042defeb0653f00d4aaeadd74901c3a1dee3ab97fb36ea190"
   license "MIT"
 
   depends_on "python@3.11"
@@ -25,8 +25,8 @@ class LazyEcs < Formula
   end
 
   resource "lazy-ecs" do
-    url "https://files.pythonhosted.org/packages/71/41/cb32e57edfb6dd9b696231e10af397ba55d23d15ca567060460a565e2c9a/lazy_ecs-0.7.0.tar.gz"
-    sha256 "e94a12c3f98a04ecc3b58a46c4ae8dd6bdf49e69302a265777c087972c06b9df"
+    url "https://files.pythonhosted.org/packages/88/a3/ce418634739ef716d2cbf33de7d5a8f07057059c22051b10d9dd85a25d0c/lazy_ecs-0.7.2.tar.gz"
+    sha256 "76dbb5c888b01a8042defeb0653f00d4aaeadd74901c3a1dee3ab97fb36ea190"
   end
 
   resource "markdown-it-py" do
