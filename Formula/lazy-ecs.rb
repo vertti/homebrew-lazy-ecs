@@ -3,8 +3,8 @@ class LazyEcs < Formula
 
   desc "Interactive CLI tool for navigating AWS ECS clusters"
   homepage "https://github.com/vertti/lazy-ecs"
-  url "https://files.pythonhosted.org/packages/ff/89/397e8671746f4e20dfbe771492da296ce322c767dd85116b155c0ade9101/lazy_ecs-0.7.3.tar.gz"
-  sha256 "56bb95d0a4908ee474d20865f3a2b15d20e700532007f38ec3271d21ae712e7f"
+  url "https://files.pythonhosted.org/packages/4e/4f/c50fc4d95a281c62fdfe7244f3205a356efa754161001ea558ef77ea426f/lazy_ecs-0.7.4.tar.gz"
+  sha256 "f6ca01109479dc78e2f929e8c5dbfbb1eb322c7a562a23a581172756c8299702"
   license "MIT"
 
   depends_on "python@3.11"
