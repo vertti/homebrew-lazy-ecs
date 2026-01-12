@@ -3,20 +3,20 @@ class LazyEcs < Formula
 
   desc "Interactive CLI tool for navigating AWS ECS clusters"
   homepage "https://github.com/vertti/lazy-ecs"
-  url "https://files.pythonhosted.org/packages/45/1c/c53c1edfeb83bc4fcabe0ab081e75d4fcc650b39ae62c015e49495ed88ea/lazy_ecs-0.7.5.tar.gz"
-  sha256 "e8e24c8df15e26842dd5bf9937a812a5d556fd08d72f32b9e9616992b3792c38"
+  url "https://files.pythonhosted.org/packages/1a/1c/7b5b9ac5bebf4d9baf31954acb3ce8d15c16c171bb6b8c35b173aacc0268/lazy_ecs-0.7.6.tar.gz"
+  sha256 "76a5ce3f42cb345e99d0c67b294aef5c9e70c4bdb55bd0cfcfd050880d6d2043"
   license "MIT"
 
   depends_on "python@3.11"
 
   resource "boto3" do
-    url "https://files.pythonhosted.org/packages/50/d8/a279c054e0c9731172f05b3d118f3ffc9d74806657f84fc0c93c42d1bb5d/boto3-1.40.55.tar.gz"
-    sha256 "27e35b4fa9edd414ce06c1a748bf57cacd8203271847d93fc1053e4a4ec6e1a9"
+    url "https://files.pythonhosted.org/packages/29/30/755a6c4b27ad4effefa9e407f84c6f0a69f75a21c0090beb25022dfcfd3f/boto3-1.42.25.tar.gz"
+    sha256 "ccb5e757dd62698d25766cc54cf5c47bea43287efa59c93cf1df8c8fbc26eeda"
   end
 
   resource "botocore" do
-    url "https://files.pythonhosted.org/packages/9f/0a/4abd361449e495bc6f0eb24dc14213c1468253a5be63cfcd3b6f9feca992/botocore-1.40.59.tar.gz"
-    sha256 "842a466d8735272a30fe5b7f97df559d9e211a18e412f62a17ed249fd62f85fe"
+    url "https://files.pythonhosted.org/packages/2c/b5/8f961c65898deb5417c9e9e908ea6c4d2fe8bb52ff04e552f679c88ed2ce/botocore-1.42.25.tar.gz"
+    sha256 "7ae79d1f77d3771e83e4dd46bce43166a1ba85d58a49cffe4c4a721418616054"
   end
 
   resource "jmespath" do
@@ -25,8 +25,8 @@ class LazyEcs < Formula
   end
 
   resource "lazy-ecs" do
-    url "https://files.pythonhosted.org/packages/45/1c/c53c1edfeb83bc4fcabe0ab081e75d4fcc650b39ae62c015e49495ed88ea/lazy_ecs-0.7.5.tar.gz"
-    sha256 "e8e24c8df15e26842dd5bf9937a812a5d556fd08d72f32b9e9616992b3792c38"
+    url "https://files.pythonhosted.org/packages/1a/1c/7b5b9ac5bebf4d9baf31954acb3ce8d15c16c171bb6b8c35b173aacc0268/lazy_ecs-0.7.6.tar.gz"
+    sha256 "76a5ce3f42cb345e99d0c67b294aef5c9e70c4bdb55bd0cfcfd050880d6d2043"
   end
 
   resource "markdown-it-py" do
@@ -65,8 +65,8 @@ class LazyEcs < Formula
   end
 
   resource "s3transfer" do
-    url "https://files.pythonhosted.org/packages/62/74/8d69dcb7a9efe8baa2046891735e5dfe433ad558ae23d9e3c14c633d1d58/s3transfer-0.14.0.tar.gz"
-    sha256 "eff12264e7c8b4985074ccce27a3b38a485bb7f7422cc8046fee9be4983e4125"
+    url "https://files.pythonhosted.org/packages/05/04/74127fc843314818edfa81b5540e26dd537353b123a4edc563109d8f17dd/s3transfer-0.16.0.tar.gz"
+    sha256 "8e990f13268025792229cd52fa10cb7163744bf56e719e0b9cb925ab79abf920"
   end
 
   resource "six" do
@@ -75,8 +75,8 @@ class LazyEcs < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/15/22/9ee70a2574a4f4599c47dd506532914ce044817c7752a79b6a51286319bc/urllib3-2.5.0.tar.gz"
-    sha256 "3fc47733c7e419d4bc3f6b3dc2b4f890bb743906a30d56ba4a5bfa4bbff92760"
+    url "https://files.pythonhosted.org/packages/c7/24/5f1b3bdffd70275f6661c76461e25f024d5a38a46f04aaca912426a2b1d3/urllib3-2.6.3.tar.gz"
+    sha256 "1b62b6884944a57dbe321509ab94fd4d3b307075e0c2eae991ac71ee15ad38ed"
   end
 
   resource "wcwidth" do
